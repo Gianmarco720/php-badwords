@@ -26,17 +26,17 @@ $newlength = 'La lunghezza del testo censurato è di ' . strlen($newtext) . ' ca
     <main>
         <div class="container mt-5">
             <!-- Paragrafo senza censure -->
-            <div class="mt-3 border border-2">
-                <h1 class="text-success pb-3">Ecco il tuo testo senza censura</h1>
-                <p class="fs-3 fw-semibold"><?php echo $paragraph ?></p>
-                <h3 class="fw-normal"><?php echo $textlength ?></h3>
+            <div class="mt-3 border border-2 rounded">
+                <h1 class="text-success pb-3 ps-3 pt-3">Ecco il tuo testo senza censura</h1>
+                <p class="fs-3 fw-semibold ps-3 pt-3"><?php echo $paragraph ?></p>
+                <h3 class="fw-normal ps-3 pt-3"><?php echo $textlength ?></h3>
             </div>
 
             <!-- Paragrafo con censure -->
-            <div class="mt-5 border border-2">
-                <h1 class="text-danger pb-3">Ecco il tuo testo censurato</h1>
-                <p class="fs-3 fw-semibold"><?php echo $newtext ?></p>
-                <h3 class="fw-normal"><?php echo $newlength ?></h3>
+            <div class="mt-5 border border-2 rounded">
+                <h1 class="text-danger pb-3 ps-3 pt-3">Ecco il tuo testo censurato</h1>
+                <p class="fs-3 fw-semibold ps-3 pt-3"><?php echo $newtext ?></p>
+                <h3 class="fw-normal ps-3 pt-3"><?php echo $newlength ?></h3>
             </div>
         </div>
     </main>
