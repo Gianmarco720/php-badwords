@@ -15,8 +15,20 @@
 <body>
 
     <main>
-        <div class="container">
-
+        <div class="container mt-5">
+            <h1 class="pt-3 pb-3">Compila il form</h1>
+            <form action="censored.php">
+                <div class="mb-3">
+                    <label for="paragraph" class="form-label">Scrivi del testo</label>
+                    <input type="text" class="form-control" name="paragraph" id="paragraph">
+                </div>
+                <div class="mb-3">
+                    <label for="badword" class="form-label">Scrivi una parola da censurare</label>
+                    <input type="text" class="form-control" name="badword" id="badword">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-danger">Reset</button>
+            </form>
         </div>
     </main>
 
